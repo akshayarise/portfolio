@@ -1,4 +1,4 @@
-# PORTFOLIO-APP 
+# PORTFOLIO 
 [![Build Status](https://travis-ci.org/dbarochiya/me.svg?branch=master)](https://travis-ci.org/akshayarise/portfolio)
 
 - To run this project follow these steps , 
