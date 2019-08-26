@@ -31,8 +31,8 @@ export class MapContainer extends Component {
 
       <div>
 
-        <div class="row" style={{ margin: 'auto' }}>
-          <div class="col-md-12">
+        <div className="row" style={{ margin: 'auto' }}>
+          <div className="col-md-12">
             <h1>Contact</h1>
           </div>
         </div>
@@ -79,8 +79,8 @@ export class MapContainer extends Component {
           </div>
         </div>
 
-        <div class="row" style={{ margin: 'auto' }}>
-          <div class="col-md-12">
+        <div className="row" style={{ margin: 'auto' }}>
+          <div className="col-md-12">
             <h1>
               WB-155 Shakarpur <br></br>
               New Delhi - 110092
