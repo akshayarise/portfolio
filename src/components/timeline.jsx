@@ -15,13 +15,24 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Node.JS Developer at Nagarro <span>2019-June to present</span></h2>
+                        <p>I collaborated with project managers to select ambitious, but realistic coding milestones on pre-release software project development.</p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Full Stack Developer at Digi-MENA <span>2019-present</span></h2>
+                        <h2>Full Stack Developer at Digi-MENA <span>2019-April</span></h2>
                         <p>My Job responsibility is to focus on end to end engineering i.e front to back from scratch so that I can come up with the World class product that will improves the experience of our customers efficiently.</p>
                       </div>
                     </div>

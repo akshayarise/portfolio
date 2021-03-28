@@ -84,7 +84,7 @@ export class MapContainer extends Component {
             <h1>
               WB-155 Shakarpur <br></br>
               New Delhi - 110092 <br></br>
-              Mobile Number - 8860500768
+              Mobile Number - 9310279350
                       </h1>
           </div>
         </div>

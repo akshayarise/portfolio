@@ -37,7 +37,7 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Web Development </h3>
-                                        <p>I have experience building websites and chrome extentions using JavaScript, React, HTML, CSS, Node.Js</p>
+                                        {/* <p>I have experience building websites and chrome extentions using JavaScript, React, HTML, CSS, Node.Js</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ export default class About extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 text-center animate-box">
+                            {/* <div className="col-md-4 text-center animate-box">
                                 <div className="services color-5">
                                     <span className="icon">
                                         <i className="icon-data" />
@@ -62,7 +62,7 @@ export default class About extends Component {
                                         <p>I have worked with tools like Jenkins, Docker, K8s</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/*
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-2">
