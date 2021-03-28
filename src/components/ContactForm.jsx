@@ -23,15 +23,15 @@ export default class ContactForm extends Component {
 
             <form>
                 <MapContainer></MapContainer>
-                <h1 style={{ 'text-align': 'center' }}>Please feel free to ask any query via this form.</h1>
+                {/* <h1 style={{ 'textAlign': 'center' }}>Please feel free to ask any query via this form.</h1> */}
                 <div className="form-row">
                     <div className="form-group col-md-6">
 
-                        <input type="Name" className="form-control" id="inputEmail1" placeholder="Name"></input>
+                        <input type="Name" className="form-control" id="inputEmail1" placeholder="Name" />
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div className="form-row">
 
                     <div className="form-group col-md-6">
 
@@ -58,7 +58,7 @@ export default class ContactForm extends Component {
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                 </div>
                 <div className="form-group col-md-12">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary">Submit</button>
                 </div>
                 
             </form>
