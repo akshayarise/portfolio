@@ -21,49 +21,62 @@ export default class ContactForm extends Component {
     render() {
         return (
 
-            <form>
-                <MapContainer></MapContainer>
-                {/* <h1 style={{ 'textAlign': 'center' }}>Please feel free to ask any query via this form.</h1> */}
-                <div className="form-row">
-                    <div className="form-group col-md-6">
+            <div>
+                <section className="colorlib-experience" data-section="timeline">
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                {/* <span className="heading-meta">highlights</span> */}
+                                <h2 className="colorlib-heading animate-box">Feel free to ask any query.</h2>
+                            </div>
+                        </div>
 
-                        <input type="Name" className="form-control" id="inputEmail1" placeholder="Name" />
+
+                        <form>
+                            <MapContainer></MapContainer>
+
+
+                            <div className="form-row">
+                                <div className="form-group col-md-6">
+
+                                    <input type="Name" className="form-control" id="inputEmail1" placeholder="Name" />
+                                </div>
+                            </div>
+
+                            <div className="form-row">
+
+                                <div className="form-group col-md-6">
+
+                                    <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
+                                </div>
+
+                            </div>
+
+                            <div className="form-group col-md-12" >
+
+                                <input type="text" className="form-control" id="inputAddress2" placeholder="Address" />
+
+
+                            </div>
+
+                            <div className="form-group col-md-12" >
+                                <input type="text" className="form-control" id="inputSubject" placeholder="Subject" />
+                            </div>
+
+
+
+                            <div className="form-group col-md-12">
+
+                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <div className="form-group col-md-12">
+                                <button type="submit" className="btn btn-primary">Submit</button>
+                            </div>
+
+                        </form>
                     </div>
-                </div>
-
-                <div className="form-row">
-
-                    <div className="form-group col-md-6">
-
-                        <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
-                    </div>
-
-                </div>
-
-                <div className="form-group col-md-12" >
-
-                    <input type="text" className="form-control" id="inputAddress2" placeholder="Address" />
-
-
-                </div>
-
-                <div className="form-group col-md-12" >
-                    <input type="text" className="form-control" id="inputSubject" placeholder="Subject" />
-                </div>
-
-
-
-                <div className="form-group col-md-12">
-
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                </div>
-                <div className="form-group col-md-12">
-                    <button type="submit" className="btn btn-primary">Submit</button>
-                </div>
-                
-            </form>
-
-
+                </section>
+            </div>
         );
     }
 }
