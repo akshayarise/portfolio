@@ -22,6 +22,7 @@ export default class ContactForm extends Component {
         return (
 
             <div>
+                <MapContainer></MapContainer>
                 <section className="colorlib-experience" data-section="timeline">
                     <div className="colorlib-narrow-content">
                         <div className="row">
@@ -33,8 +34,6 @@ export default class ContactForm extends Component {
 
 
                         <form>
-                            <MapContainer></MapContainer>
-
 
                             <div className="form-row">
                                 <div className="form-group col-md-6">
