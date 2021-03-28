@@ -17,8 +17,8 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  <li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>
+                  <li><a href="#projects" data-nav-section="projects">Projects</a></li>
+                  <li><a href="#blog" data-nav-section="blog">Blog</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
                   <li><a href="#ContactForm" data-nav-section="contact">Contact</a></li>
                 </ul>
@@ -26,13 +26,13 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="https://www.facebook.com/akshaykumar0701" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2 facebook-class" ></i></a></li>
-                <li><a href="https://twitter.com/akshayarise" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2 twitter-class"></i></a></li>
-                <li><a href="https://www.instagram.com/akshaykumar0701/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram instagram-class"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/akshay-kumar-93841654/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2 linkedin-class" /></a></li>
-                <li><a href="https://github.com/akshayarise" target="_blank" rel="noopener noreferrer"><i className="icon-github github-class"></i></a></li>
-                <li><a href="https://medium.com/@akshayarise" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium medium-class"></i></a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLS8Sg8cKaWjuukml_tEyES783y_N3YFYC" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube youtube-class"></i></a></li>
+                <li><a href="https://www.facebook.com/akshaykumar0701" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" ></i></a></li>
+                <li><a href="https://twitter.com/akshayarise" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/akshaykumar0701/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/akshay-kumar-93841654/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://github.com/akshayarise" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
+                <li><a href="https://medium.com/@akshayarise" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLS8Sg8cKaWjuukml_tEyES783y_N3YFYC" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
